@@ -1,0 +1,4 @@
+model_type: DDUDSU
+embeading_dim: 28
+stage: 7
+type: InceptUNet

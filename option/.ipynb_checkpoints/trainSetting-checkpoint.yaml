@@ -1,0 +1,15 @@
+gpu_id: '0'
+data_root: '/root/autodl-tmp/Data'
+outf: '/root/autodl-fs/MODEL/NEW LAB/20230120-2/'
+re_path: [/data1/liulei_lab/MODEL/RE_Code/5000/pure/model,/data1/liulei_lab/MODEL/RE_Code/5000/pure/result]
+RESUME: False
+input_setting: 'H'
+input_mask: 'Mask'
+batch_size: 2
+max_epoch: 300
+scheduler: 'CosineAnnealingLR'
+loss_type: L2
+milestones: [50,100,150,200,250]
+gamma: 0.5
+epoch_sam_num: 5000
+learning_rate: 3.0e-4

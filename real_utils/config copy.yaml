@@ -1,0 +1,17 @@
+model_type: DAFNet
+model_shape: U
+layer_type: [CTransformerBlock]
+est_type: Estimator
+SelfCodition: True
+embeading_dim: 32
+stage: 2
+num_blocks: [2,2,2]
+heads: [4, 8, 16]
+t: 2
+img_size: 256
+n: 2
+processer: 2
+n_s: [1,1,1]
+Multiscale: True
+Type: LocalTrans
+inType: True

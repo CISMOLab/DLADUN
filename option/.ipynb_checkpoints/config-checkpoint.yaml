@@ -1,0 +1,3 @@
+model_type: Net
+embeading_dim: 28
+stage: 2
