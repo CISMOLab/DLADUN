@@ -2,7 +2,7 @@
 
 ## Authors
 
-## Ping Xu, Lei Liu, Haifeng Zheng, Xin Yuan, Chen Xu, Lingyun Xue
+## Lei Liu, Ping Xu, Haifeng Zheng, Xin Yuan, Chen Xu, Lingyun Xue
 
 ## 1. Create Environment
 
